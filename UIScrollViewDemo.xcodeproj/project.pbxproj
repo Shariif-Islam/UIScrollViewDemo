@@ -12,6 +12,8 @@
 		122D3DA31ED6A901003C6189 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122D3DA11ED6A901003C6189 /* Main.storyboard */; };
 		122D3DA51ED6A901003C6189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 122D3DA41ED6A901003C6189 /* Assets.xcassets */; };
 		122D3DA81ED6A901003C6189 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 122D3DA61ED6A901003C6189 /* LaunchScreen.storyboard */; };
+		122D3DB01ED6AA3B003C6189 /* Feature.xib in Resources */ = {isa = PBXBuildFile; fileRef = 122D3DAF1ED6AA3B003C6189 /* Feature.xib */; };
+		122D3DB21ED6B2EC003C6189 /* FeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122D3DB11ED6B2EC003C6189 /* FeatureView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		122D3DA41ED6A901003C6189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		122D3DA71ED6A901003C6189 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		122D3DA91ED6A901003C6189 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		122D3DAF1ED6AA3B003C6189 /* Feature.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Feature.xib; sourceTree = "<group>"; };
+		122D3DB11ED6B2EC003C6189 /* FeatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				122D3D9D1ED6A901003C6189 /* AppDelegate.swift */,
 				122D3D9F1ED6A901003C6189 /* ViewController.swift */,
+				122D3DB11ED6B2EC003C6189 /* FeatureView.swift */,
+				122D3DAF1ED6AA3B003C6189 /* Feature.xib */,
 				122D3DA11ED6A901003C6189 /* Main.storyboard */,
 				122D3DA41ED6A901003C6189 /* Assets.xcassets */,
 				122D3DA61ED6A901003C6189 /* LaunchScreen.storyboard */,
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					122D3D991ED6A901003C6189 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9NGTNE5FRE;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122D3DB01ED6AA3B003C6189 /* Feature.xib in Resources */,
 				122D3DA81ED6A901003C6189 /* LaunchScreen.storyboard in Resources */,
 				122D3DA51ED6A901003C6189 /* Assets.xcassets in Resources */,
 				122D3DA31ED6A901003C6189 /* Main.storyboard in Resources */,
@@ -136,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122D3DB21ED6B2EC003C6189 /* FeatureView.swift in Sources */,
 				122D3DA01ED6A901003C6189 /* ViewController.swift in Sources */,
 				122D3D9E1ED6A901003C6189 /* AppDelegate.swift in Sources */,
 			);
@@ -260,6 +269,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9NGTNE5FRE;
 				INFOPLIST_FILE = UIScrollViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shariif..UIScrollViewDemo;
@@ -272,6 +282,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9NGTNE5FRE;
 				INFOPLIST_FILE = UIScrollViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shariif..UIScrollViewDemo;
